@@ -1,0 +1,93 @@
+.kanban-container {
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .controls p{
+    padding-left: 5px;
+  }
+  
+  .controls label {
+    margin-right: 15px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .kanban-column {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 250px;
+  }
+
+  .kanban-heading{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.kanban-column .title-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.kanban-column .title-container h2{
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.kanban-column .title-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kanban-column .title-menu img{
+    height: 20px;
+    width: 20px;
+}
+
+  .kanban-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding-left: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .kanban-card h3{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 01.0em;
+    text-align: left;
+  }
+
+  .kanban-card p{
+    display: flex;
+    width: 100%;
+    justify-content:flex-start;
+    color: #4e4e4e;
+    font-size: small;
+    padding-left: 10px;
+    margin:5px 0px;
+  }
+
+  .kanban-card img{
+    display: flex;
+    justify-content:flex-start;
+    color: #4e4e4e;
+    padding-left: 5px;
+    margin:5px 0px;
+  }
