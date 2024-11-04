@@ -32,5 +32,4 @@ Make sure you have the following software installed on your system:
 Change into the project directory.
 cd <project-directory>
 
-Run the following command to install the required dependencies:
-npm install
+Run the npm install command to install the required dependencies
